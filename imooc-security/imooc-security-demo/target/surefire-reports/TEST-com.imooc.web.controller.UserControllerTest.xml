@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="8" failures="1" name="com.imooc.web.controller.UserControllerTest" time="0.467" errors="1" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_144\jre\bin"/>
+    <property name="java.vm.version" value="25.144-b01"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\King-Pan\Documents\GitHub\security\imooc-security"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\King-Pan\Documents\GitHub\security\imooc-security"/>
+    <property name="java.runtime.version" value="1.8.0_144-b01"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_144\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\King-Pan\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\work\maven-3.5.0\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_144\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Java\jdk1.8.0_144\bin;C:\work\maven-3.5.0\bin;C:\Program Files\Git\cmd;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Program Files (x86)\Microsoft SQL Server\90\Tools\binn\;D:\Program Files\nodejs\;C:\Users\King-Pan\AppData\Local\Microsoft\WindowsApps;C:\Users\King-Pan\AppData\Roaming\npm;D:\Program Files\nodejs\;C:\Users\King-Pan\AppData\Local\GitHubDesktop\bin;."/>
+    <property name="maven.conf" value="C:\work\maven-3.5.0\bin\../conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="C:\work\maven-3.5.0\bin\..\lib\jansi-native\windows64"/>
+    <property name="user.home" value="C:\Users\King-Pan"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="GBK"/>
+    <property name="user.name" value="King-Pan"/>
+    <property name="java.class.path" value="C:\work\maven-3.5.0\bin\..\boot\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_144\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="zh"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_144"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_144\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_144\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_144\jre\classes"/>
+    <property name="sun.stderr.encoding" value="ms936"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\work\maven-3.5.0\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.stdout.encoding" value="ms936"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="com.imooc.web.controller.UserControllerTest" name="whenUploadSuccess" time="0.13">
+    <error message="\Users\zhailiang\Documents\my\muke\inaction\java\workspace\github\imooc-security-demo\src\main\java\com\imooc\web\controller\1521904421631.txt (系统找不到指定的路径。)" type="java.io.FileNotFoundException">java.io.FileNotFoundException: \Users\zhailiang\Documents\my\muke\inaction\java\workspace\github\imooc-security-demo\src\main\java\com\imooc\web\controller\1521904421631.txt (系统找不到指定的路径。)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.&lt;init&gt;(FileOutputStream.java:213)
+	at java.io.FileOutputStream.&lt;init&gt;(FileOutputStream.java:162)
+	at org.springframework.util.FileCopyUtils.copy(FileCopyUtils.java:79)
+	at org.springframework.mock.web.MockMultipartFile.transferTo(MockMultipartFile.java:136)
+	at com.imooc.web.controller.FileController.upload(FileController.java:44)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:133)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:97)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:967)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:901)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:872)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at org.springframework.test.web.servlet.TestDispatcherServlet.service(TestDispatcherServlet.java:65)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.springframework.mock.web.MockFilterChain$ServletFilterProxy.doFilter(MockFilterChain.java:167)
+	at org.springframework.mock.web.MockFilterChain.doFilter(MockFilterChain.java:134)
+	at org.springframework.test.web.servlet.MockMvc.perform(MockMvc.java:155)
+	at com.imooc.web.controller.UserControllerTest.whenUploadSuccess(UserControllerTest.java:50)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:75)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:86)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:84)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:252)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:94)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+</error>
+    <system-out>23:13:32.137 [main] DEBUG org.springframework.test.context.junit4.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class com.imooc.web.controller.UserControllerTest]
+23:13:32.144 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+23:13:32.153 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+23:13:32.174 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.imooc.web.controller.UserControllerTest] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+23:13:32.189 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.imooc.web.controller.UserControllerTest], using SpringBootContextLoader
+23:13:32.195 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.imooc.web.controller.UserControllerTest]: class path resource [com/imooc/web/controller/UserControllerTest-context.xml] does not exist
+23:13:32.196 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.imooc.web.controller.UserControllerTest]: class path resource [com/imooc/web/controller/UserControllerTestContext.groovy] does not exist
+23:13:32.197 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.imooc.web.controller.UserControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+23:13:32.198 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.imooc.web.controller.UserControllerTest]: UserControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+23:13:32.246 [main] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an &apos;annotation declaring class&apos; for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.imooc.web.controller.UserControllerTest]
+23:13:32.258 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+23:13:32.259 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+23:13:32.259 [main] DEBUG org.springframework.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+23:13:32.274 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved classpath location [com/imooc/web/controller/] to resources [URL [file:/C:/Users/King-Pan/Documents/GitHub/security/imooc-security-demo/target/test-classes/com/imooc/web/controller/], URL [file:/C:/Users/King-Pan/Documents/GitHub/security/imooc-security-demo/target/classes/com/imooc/web/controller/]]
+23:13:32.275 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [C:\Users\King-Pan\Documents\GitHub\security\imooc-security-demo\target\test-classes\com\imooc\web\controller]
+23:13:32.276 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [C:\Users\King-Pan\Documents\GitHub\security\imooc-security-demo\target\test-classes\com\imooc\web\controller] for files matching pattern [C:/Users/King-Pan/Documents/GitHub/security/imooc-security-demo/target/test-classes/com/imooc/web/controller/*.class]
+23:13:32.279 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [C:\Users\King-Pan\Documents\GitHub\security\imooc-security-demo\target\classes\com\imooc\web\controller]
+23:13:32.280 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [C:\Users\King-Pan\Documents\GitHub\security\imooc-security-demo\target\classes\com\imooc\web\controller] for files matching pattern [C:/Users/King-Pan/Documents/GitHub/security/imooc-security-demo/target/classes/com/imooc/web/controller/*.class]
+23:13:32.281 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved location pattern [classpath*:com/imooc/web/controller/*.class] to resources [file [C:\Users\King-Pan\Documents\GitHub\security\imooc-security-demo\target\test-classes\com\imooc\web\controller\UserControllerTest.class], file [C:\Users\King-Pan\Documents\GitHub\security\imooc-security-demo\target\classes\com\imooc\web\controller\ControllerExceptionHandler.class], file [C:\Users\King-Pan\Documents\GitHub\security\imooc-security-demo\target\classes\com\imooc\web\controller\FileController.class], file [C:\Users\King-Pan\Documents\GitHub\security\imooc-security-demo\target\classes\com\imooc\web\controller\UserController.class]]
+23:13:32.345 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved classpath location [com/imooc/web/] to resources [URL [file:/C:/Users/King-Pan/Documents/GitHub/security/imooc-security-demo/target/test-classes/com/imooc/web/], URL [file:/C:/Users/King-Pan/Documents/GitHub/security/imooc-security-demo/target/classes/com/imooc/web/]]
+23:13:32.345 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [C:\Users\King-Pan\Documents\GitHub\security\imooc-security-demo\target\test-classes\com\imooc\web]
+23:13:32.345 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [C:\Users\King-Pan\Documents\GitHub\security\imooc-security-demo\target\test-classes\com\imooc\web] for files matching pattern [C:/Users/King-Pan/Documents/GitHub/security/imooc-security-demo/target/test-classes/com/imooc/web/*.class]
+23:13:32.346 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [C:\Users\King-Pan\Documents\GitHub\security\imooc-security-demo\target\classes\com\imooc\web]
+23:13:32.346 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [C:\Users\King-Pan\Documents\GitHub\security\imooc-security-demo\target\classes\com\imooc\web] for files matching pattern [C:/Users/King-Pan/Documents/GitHub/security/imooc-security-demo/target/classes/com/imooc/web/*.class]
+23:13:32.348 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved location pattern [classpath*:com/imooc/web/*.class] to resources []
+23:13:32.349 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved classpath location [com/imooc/] to resources [URL [file:/C:/Users/King-Pan/Documents/GitHub/security/imooc-security-demo/target/test-classes/com/imooc/], URL [file:/C:/Users/King-Pan/Documents/GitHub/security/imooc-security-demo/target/classes/com/imooc/], URL [jar:file:/C:/Users/King-Pan/Documents/GitHub/security/imooc-security-browser/target/imooc-security-browser-1.0.0-SNAPSHOT.jar!/com/imooc/], URL [jar:file:/C:/Users/King-Pan/Documents/GitHub/security/imooc-security-core/target/imooc-security-core-1.0.0-SNAPSHOT.jar!/com/imooc/]]
+23:13:32.349 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [C:\Users\King-Pan\Documents\GitHub\security\imooc-security-demo\target\test-classes\com\imooc]
+23:13:32.349 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [C:\Users\King-Pan\Documents\GitHub\security\imooc-security-demo\target\test-classes\com\imooc] for files matching pattern [C:/Users/King-Pan/Documents/GitHub/security/imooc-security-demo/target/test-classes/com/imooc/*.class]
+23:13:32.350 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [C:\Users\King-Pan\Documents\GitHub\security\imooc-security-demo\target\classes\com\imooc]
+23:13:32.350 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [C:\Users\King-Pan\Documents\GitHub\security\imooc-security-demo\target\classes\com\imooc] for files matching pattern [C:/Users/King-Pan/Documents/GitHub/security/imooc-security-demo/target/classes/com/imooc/*.class]
+23:13:32.352 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in jar file [file:/C:/Users/King-Pan/Documents/GitHub/security/imooc-security-browser/target/imooc-security-browser-1.0.0-SNAPSHOT.jar]
+23:13:32.354 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in jar file [file:/C:/Users/King-Pan/Documents/GitHub/security/imooc-security-core/target/imooc-security-core-1.0.0-SNAPSHOT.jar]
+23:13:32.356 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved location pattern [classpath*:com/imooc/*.class] to resources [file [C:\Users\King-Pan\Documents\GitHub\security\imooc-security-demo\target\classes\com\imooc\DemoApplication.class]]
+23:13:32.393 [main] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [C:\Users\King-Pan\Documents\GitHub\security\imooc-security-demo\target\classes\com\imooc\DemoApplication.class]
+23:13:32.394 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.imooc.DemoApplication for test class com.imooc.web.controller.UserControllerTest
+23:13:32.397 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [com.imooc.web.controller.UserControllerTest]: using defaults.
+23:13:32.404 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+23:13:32.434 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@402e37bc, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@79ad8b2f, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@1df82230, org.springframework.test.context.support.DirtiesContextTestExecutionListener@22635ba0, org.springframework.test.context.transaction.TransactionalTestExecutionListener@13c10b87, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@6a01e23, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@5a955565, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@6293abcc, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@7995092a, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@7fc2413d, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@f8c1ddd, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@70be0a2b]
+23:13:32.437 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.imooc.web.controller.UserControllerTest]
+23:13:32.438 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.imooc.web.controller.UserControllerTest]
+23:13:32.439 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.imooc.web.controller.UserControllerTest]
+23:13:32.439 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.imooc.web.controller.UserControllerTest]
+23:13:32.447 [main] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@3b07a0d6 testClass = UserControllerTest, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@11a9e7c8 testClass = UserControllerTest, locations = &apos;{}&apos;, classes = &apos;{class com.imooc.DemoApplication}&apos;, contextInitializerClasses = &apos;[]&apos;, activeProfiles = &apos;{}&apos;, propertySourceLocations = &apos;{}&apos;, propertySourceProperties = &apos;{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}&apos;, contextCustomizers = set[org.springframework.boot.test.context.SpringBootTestContextCustomizer@ea1a8d5, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@30a3107a, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@52feb982, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@58c1670b], resourceBasePath = &apos;src/main/webapp&apos;, contextLoader = &apos;org.springframework.boot.test.context.SpringBootContextLoader&apos;, parent = [null]]], class annotated with @DirtiesContext [false] with mode [null].
+23:13:32.448 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.imooc.web.controller.UserControllerTest]
+23:13:32.448 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.imooc.web.controller.UserControllerTest]
+23:13:32.526 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+23:13:32.526 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+23:13:32.526 [main] DEBUG org.springframework.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+23:13:32.527 [main] DEBUG org.springframework.core.env.MutablePropertySources - Adding [inline] PropertySource with highest search precedence
+23:13:32.534 [main] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true, server.port=-1}
+23:13:32.535 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [Inlined Test Properties] PropertySource with highest search precedence
+2018-03-24 23:13:33.162  INFO 15056 --- [           main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@2a8448fa: startup date [Sat Mar 24 23:13:33 CST 2018]; root of context hierarchy
+2018-03-24 23:13:33.397  INFO 15056 --- [           main] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 &apos;javax.inject.Inject&apos; annotation found and supported for autowiring
+2018-03-24 23:13:33.443  INFO 15056 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean &apos;configurationPropertiesRebinderAutoConfiguration&apos; of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$7606aa48] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+  .   ____          _            __ _ _
+ /\\ / ___&apos;_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | &apos;_ | &apos;_| | &apos;_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  &apos;  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v1.5.6.RELEASE)
+
+2018-03-24 23:13:34.009  INFO 15056 --- [           main] c.i.web.controller.UserControllerTest    : No active profile set, falling back to default profiles: default
+2018-03-24 23:13:34.018  INFO 15056 --- [           main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@65a4798f: startup date [Sat Mar 24 23:13:34 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@2a8448fa
+2018-03-24 23:13:35.313  INFO 15056 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-03-24 23:13:35.707  INFO 15056 --- [           main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=e643927a-5fe3-383a-a133-4f681233c9bf
+2018-03-24 23:13:35.810  INFO 15056 --- [           main] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 &apos;javax.inject.Inject&apos; annotation found and supported for autowiring
+2018-03-24 23:13:35.977  INFO 15056 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean &apos;org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration&apos; of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$59eca74b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-03-24 23:13:36.158  INFO 15056 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean &apos;org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration&apos; of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$7606aa48] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-03-24 23:13:37.686  INFO 15056 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/hello],methods=[GET]}&quot; onto public java.lang.String com.imooc.DemoApplication.hello()
+2018-03-24 23:13:37.688  INFO 15056 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/order]}&quot; onto public org.springframework.web.context.request.async.DeferredResult&lt;java.lang.String&gt; com.imooc.web.async.AsyncController.order() throws java.lang.Exception
+2018-03-24 23:13:37.691  INFO 15056 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/file],methods=[POST]}&quot; onto public com.imooc.dto.FileInfo com.imooc.web.controller.FileController.upload(org.springframework.web.multipart.MultipartFile) throws java.lang.Exception
+2018-03-24 23:13:37.691  INFO 15056 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/file/{id}],methods=[GET]}&quot; onto public void com.imooc.web.controller.FileController.download(java.lang.String,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2018-03-24 23:13:37.696  INFO 15056 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/user/{id:\d+}],methods=[PUT]}&quot; onto public com.imooc.dto.User com.imooc.web.controller.UserController.update(com.imooc.dto.User,org.springframework.validation.BindingResult)
+2018-03-24 23:13:37.697  INFO 15056 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/user/{id:\d+}],methods=[DELETE]}&quot; onto public void com.imooc.web.controller.UserController.delete(java.lang.String)
+2018-03-24 23:13:37.698  INFO 15056 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/user],methods=[POST]}&quot; onto public com.imooc.dto.User com.imooc.web.controller.UserController.create(com.imooc.dto.User)
+2018-03-24 23:13:37.698  INFO 15056 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/user],methods=[GET]}&quot; onto public java.util.List&lt;com.imooc.dto.User&gt; com.imooc.web.controller.UserController.query(com.imooc.dto.UserQueryCondition,org.springframework.data.domain.Pageable)
+2018-03-24 23:13:37.699  INFO 15056 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/user/regist],methods=[POST]}&quot; onto public void com.imooc.web.controller.UserController.regist(com.imooc.dto.User,javax.servlet.http.HttpServletRequest)
+2018-03-24 23:13:37.699  INFO 15056 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/user/me],methods=[GET]}&quot; onto public java.lang.Object com.imooc.web.controller.UserController.getCurrentUser(org.springframework.security.core.Authentication,javax.servlet.http.HttpServletRequest) throws io.jsonwebtoken.ExpiredJwtException,io.jsonwebtoken.UnsupportedJwtException,io.jsonwebtoken.MalformedJwtException,io.jsonwebtoken.SignatureException,java.lang.IllegalArgumentException,java.io.UnsupportedEncodingException
+2018-03-24 23:13:37.699  INFO 15056 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/user/{id:\d+}],methods=[GET]}&quot; onto public com.imooc.dto.User com.imooc.web.controller.UserController.getInfo(java.lang.String)
+2018-03-24 23:13:37.700  INFO 15056 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/social/user],methods=[GET]}&quot; onto public com.imooc.security.core.social.support.SocialUserInfo com.imooc.security.browser.BrowserSecurityController.getSocialUserInfo(javax.servlet.http.HttpServletRequest)
+2018-03-24 23:13:37.702  INFO 15056 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/authentication/require]}&quot; onto public com.imooc.security.core.support.SimpleResponse com.imooc.security.browser.BrowserSecurityController.requireAuthentication(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.io.IOException
+2018-03-24 23:13:37.704  INFO 15056 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/code/{type}],methods=[GET]}&quot; onto public void com.imooc.security.core.validate.code.ValidateCodeController.createCode(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,java.lang.String) throws java.lang.Exception
+2018-03-24 23:13:37.708  INFO 15056 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/swagger-resources]}&quot; onto public org.springframework.http.ResponseEntity&lt;java.util.List&lt;springfox.documentation.swagger.web.SwaggerResource&gt;&gt; springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2018-03-24 23:13:37.709  INFO 15056 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/swagger-resources/configuration/ui]}&quot; onto public org.springframework.http.ResponseEntity&lt;springfox.documentation.swagger.web.UiConfiguration&gt; springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2018-03-24 23:13:37.709  INFO 15056 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/swagger-resources/configuration/security]}&quot; onto public org.springframework.http.ResponseEntity&lt;springfox.documentation.swagger.web.SecurityConfiguration&gt; springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2018-03-24 23:13:37.714  INFO 15056 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/error]}&quot; onto public org.springframework.http.ResponseEntity&lt;java.util.Map&lt;java.lang.String, java.lang.Object&gt;&gt; org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-03-24 23:13:37.715  INFO 15056 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/error],produces=[text/html]}&quot; onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-03-24 23:13:37.729  INFO 15056 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/connect/{providerId}],methods=[POST]}&quot; onto public org.springframework.web.servlet.view.RedirectView org.springframework.social.connect.web.ConnectController.connect(java.lang.String,org.springframework.web.context.request.NativeWebRequest)
+2018-03-24 23:13:37.730  INFO 15056 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/connect/{providerId}],methods=[GET],params=[oauth_token]}&quot; onto public org.springframework.web.servlet.view.RedirectView org.springframework.social.connect.web.ConnectController.oauth1Callback(java.lang.String,org.springframework.web.context.request.NativeWebRequest)
+2018-03-24 23:13:37.731  INFO 15056 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/connect],methods=[GET]}&quot; onto public java.lang.String org.springframework.social.connect.web.ConnectController.connectionStatus(org.springframework.web.context.request.NativeWebRequest,org.springframework.ui.Model)
+2018-03-24 23:13:37.732  INFO 15056 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/connect/{providerId}],methods=[GET]}&quot; onto public java.lang.String org.springframework.social.connect.web.ConnectController.connectionStatus(java.lang.String,org.springframework.web.context.request.NativeWebRequest,org.springframework.ui.Model)
+2018-03-24 23:13:37.732  INFO 15056 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/connect/{providerId}],methods=[GET],params=[code]}&quot; onto public org.springframework.web.servlet.view.RedirectView org.springframework.social.connect.web.ConnectController.oauth2Callback(java.lang.String,org.springframework.web.context.request.NativeWebRequest)
+2018-03-24 23:13:37.732  INFO 15056 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/connect/{providerId}/{providerUserId}],methods=[DELETE]}&quot; onto public org.springframework.web.servlet.view.RedirectView org.springframework.social.connect.web.ConnectController.removeConnection(java.lang.String,java.lang.String,org.springframework.web.context.request.NativeWebRequest)
+2018-03-24 23:13:37.733  INFO 15056 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/connect/{providerId}],methods=[DELETE]}&quot; onto public org.springframework.web.servlet.view.RedirectView org.springframework.social.connect.web.ConnectController.removeConnections(java.lang.String,org.springframework.web.context.request.NativeWebRequest)
+2018-03-24 23:13:37.733  INFO 15056 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/connect/{providerId}],methods=[GET],params=[error]}&quot; onto public org.springframework.web.servlet.view.RedirectView org.springframework.social.connect.web.ConnectController.oauth2ErrorCallback(java.lang.String,java.lang.String,java.lang.String,java.lang.String,org.springframework.web.context.request.NativeWebRequest)
+2018-03-24 23:13:38.297  INFO 15056 --- [           main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped &quot;{[/configprops || /configprops.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}&quot; onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-03-24 23:13:38.297  INFO 15056 --- [           main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped &quot;{[/info || /info.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}&quot; onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-03-24 23:13:38.299  INFO 15056 --- [           main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped &quot;{[/pause || /pause.json],methods=[POST]}&quot; onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
+2018-03-24 23:13:38.300  INFO 15056 --- [           main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped &quot;{[/autoconfig || /autoconfig.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}&quot; onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-03-24 23:13:38.300  INFO 15056 --- [           main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped &quot;{[/env],methods=[POST]}&quot; onto public java.lang.Object org.springframework.cloud.context.environment.EnvironmentManagerMvcEndpoint.value(java.util.Map&lt;java.lang.String, java.lang.String&gt;)
+2018-03-24 23:13:38.300  INFO 15056 --- [           main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped &quot;{[/env/reset],methods=[POST]}&quot; onto public java.util.Map&lt;java.lang.String, java.lang.Object&gt; org.springframework.cloud.context.environment.EnvironmentManagerMvcEndpoint.reset()
+2018-03-24 23:13:38.301  INFO 15056 --- [           main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped &quot;{[/dump || /dump.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}&quot; onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-03-24 23:13:38.301  INFO 15056 --- [           main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped &quot;{[/beans || /beans.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}&quot; onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-03-24 23:13:38.302  INFO 15056 --- [           main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped &quot;{[/health || /health.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}&quot; onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.HealthMvcEndpoint.invoke(javax.servlet.http.HttpServletRequest,java.security.Principal)
+2018-03-24 23:13:38.303  INFO 15056 --- [           main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped &quot;{[/metrics/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}&quot; onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.MetricsMvcEndpoint.value(java.lang.String)
+2018-03-24 23:13:38.303  INFO 15056 --- [           main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped &quot;{[/metrics || /metrics.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}&quot; onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-03-24 23:13:38.304  INFO 15056 --- [           main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped &quot;{[/mappings || /mappings.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}&quot; onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-03-24 23:13:38.305  INFO 15056 --- [           main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped &quot;{[/restart || /restart.json],methods=[POST]}&quot; onto public java.lang.Object org.springframework.cloud.context.restart.RestartMvcEndpoint.invoke()
+2018-03-24 23:13:38.307  INFO 15056 --- [           main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped &quot;{[/features || /features.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}&quot; onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-03-24 23:13:38.308  INFO 15056 --- [           main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped &quot;{[/auditevents || /auditevents.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}&quot; onto public org.springframework.http.ResponseEntity&lt;?&gt; org.springframework.boot.actuate.endpoint.mvc.AuditEventsMvcEndpoint.findByPrincipalAndAfterAndType(java.lang.String,java.util.Date,java.lang.String)
+2018-03-24 23:13:38.310  INFO 15056 --- [           main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped &quot;{[/loggers/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}&quot; onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.LoggersMvcEndpoint.get(java.lang.String)
+2018-03-24 23:13:38.311  INFO 15056 --- [           main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped &quot;{[/loggers/{name:.*}],methods=[POST],consumes=[application/vnd.spring-boot.actuator.v1+json || application/json],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}&quot; onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.LoggersMvcEndpoint.set(java.lang.String,java.util.Map&lt;java.lang.String, java.lang.String&gt;)
+2018-03-24 23:13:38.311  INFO 15056 --- [           main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped &quot;{[/loggers || /loggers.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}&quot; onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-03-24 23:13:38.313  INFO 15056 --- [           main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped &quot;{[/env/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}&quot; onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EnvironmentMvcEndpoint.value(java.lang.String)
+2018-03-24 23:13:38.313  INFO 15056 --- [           main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped &quot;{[/env || /env.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}&quot; onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-03-24 23:13:38.314  INFO 15056 --- [           main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped &quot;{[/trace || /trace.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}&quot; onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-03-24 23:13:38.317  INFO 15056 --- [           main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped &quot;{[/refresh || /refresh.json],methods=[POST]}&quot; onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
+2018-03-24 23:13:38.318  INFO 15056 --- [           main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped &quot;{[/heapdump || /heapdump.json],methods=[GET],produces=[application/octet-stream]}&quot; onto public void org.springframework.boot.actuate.endpoint.mvc.HeapdumpMvcEndpoint.invoke(boolean,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.io.IOException,javax.servlet.ServletException
+2018-03-24 23:13:38.319  INFO 15056 --- [           main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped &quot;{[/resume || /resume.json],methods=[POST]}&quot; onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
+2018-03-24 23:13:38.513  INFO 15056 --- [           main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity&lt;springfox.documentation.spring.web.json.Json&gt; springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2018-03-24 23:13:38.910  INFO 15056 --- [           main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@65a4798f: startup date [Sat Mar 24 23:13:34 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@2a8448fa
+2018-03-24 23:13:39.000  INFO 15056 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-24 23:13:39.000  INFO 15056 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-24 23:13:39.021  INFO 15056 --- [           main] .m.m.a.ExceptionHandlerExceptionResolver : Detected @ExceptionHandler methods in controllerExceptionHandler
+2018-03-24 23:13:39.057  INFO 15056 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-24 23:13:39.088  INFO 15056 --- [           main] oConfiguration$WelcomePageHandlerMapping : Adding welcome page: ServletContext resource [/index.html]
+2018-03-24 23:13:39.562  INFO 15056 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern=&apos;/css/**&apos;], Ant [pattern=&apos;/js/**&apos;], Ant [pattern=&apos;/images/**&apos;], Ant [pattern=&apos;/webjars/**&apos;], Ant [pattern=&apos;/**/favicon.ico&apos;], Ant [pattern=&apos;/error&apos;]]], []
+2018-03-24 23:13:39.725  INFO 15056 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@64eeddd8, org.springframework.security.web.context.SecurityContextPersistenceFilter@210d3a42, org.springframework.security.web.header.HeaderWriterFilter@acd3460, org.springframework.security.web.authentication.logout.LogoutFilter@4cef0747, com.imooc.security.core.validate.code.ValidateCodeFilter@47569167, org.springframework.social.security.SocialAuthenticationFilter@22604c7e, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@25dcf1b6, com.imooc.security.core.authentication.mobile.SmsCodeAuthenticationFilter@10f8e2d2, org.springframework.security.web.session.ConcurrentSessionFilter@543da15, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6f4adaab, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@35f760a4, org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter@41f7c02d, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@66048ac4, org.springframework.security.web.session.SessionManagementFilter@16f4a3c0, org.springframework.security.web.access.ExceptionTranslationFilter@b2da3a5, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@f237ae7]
+2018-03-24 23:13:39.748  INFO 15056 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: org.springframework.boot.actuate.autoconfigure.ManagementWebSecurityAutoConfiguration$LazyEndpointPathRequestMatcher@51869ad6, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@27a90ce5, org.springframework.security.web.context.SecurityContextPersistenceFilter@51d88c38, org.springframework.security.web.header.HeaderWriterFilter@319b1c77, org.springframework.web.filter.CorsFilter@77f4038c, org.springframework.security.web.authentication.logout.LogoutFilter@5dd23809, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@47e60b71, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3ea2f72e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@57b33c29, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@49a06087, org.springframework.security.web.session.SessionManagementFilter@584136c1, org.springframework.security.web.access.ExceptionTranslationFilter@72f3acc9, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@28dacf31]
+2018-03-24 23:13:39.754  INFO 15056 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern=&apos;/**&apos;]]], [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5fe3b058, org.springframework.security.web.context.SecurityContextPersistenceFilter@65b73689, org.springframework.security.web.header.HeaderWriterFilter@3ff26c9, org.springframework.security.web.authentication.logout.LogoutFilter@1a06602f, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@46591e98, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2047adea, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5af40e45, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2a661215, org.springframework.security.web.session.SessionManagementFilter@2ecdcfe3, org.springframework.security.web.access.ExceptionTranslationFilter@71668a67, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1cb44a2f]
+2018-03-24 23:13:40.745  INFO 15056 --- [           main] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 2147483647
+2018-03-24 23:13:40.745  INFO 15056 --- [           main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2018-03-24 23:13:40.785  INFO 15056 --- [           main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2018-03-24 23:13:40.903  INFO 15056 --- [           main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2018-03-24 23:13:41.077  INFO 15056 --- [           main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: findByPrincipalAndAfterAndTypeUsingGET_1
+2018-03-24 23:13:41.231  INFO 15056 --- [           main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: connectionStatusUsingGET_1
+2018-03-24 23:13:41.284  INFO 15056 --- [           main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_1
+2018-03-24 23:13:41.286  INFO 15056 --- [           main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_2
+2018-03-24 23:13:41.288  INFO 15056 --- [           main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_3
+2018-03-24 23:13:41.290  INFO 15056 --- [           main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_4
+2018-03-24 23:13:41.292  INFO 15056 --- [           main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_5
+2018-03-24 23:13:41.294  INFO 15056 --- [           main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_6
+2018-03-24 23:13:41.296  INFO 15056 --- [           main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_7
+2018-03-24 23:13:41.298  INFO 15056 --- [           main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_8
+2018-03-24 23:13:41.299  INFO 15056 --- [           main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_9
+2018-03-24 23:13:41.302  INFO 15056 --- [           main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_10
+2018-03-24 23:13:41.304  INFO 15056 --- [           main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_11
+2018-03-24 23:13:41.307  INFO 15056 --- [           main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_12
+2018-03-24 23:13:41.308  INFO 15056 --- [           main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_13
+2018-03-24 23:13:41.311  INFO 15056 --- [           main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_14
+2018-03-24 23:13:41.312  INFO 15056 --- [           main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_15
+2018-03-24 23:13:41.321  INFO 15056 --- [           main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_16
+2018-03-24 23:13:41.324  INFO 15056 --- [           main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_17
+2018-03-24 23:13:41.342  INFO 15056 --- [           main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingPOST_1
+2018-03-24 23:13:41.344  INFO 15056 --- [           main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingPOST_2
+2018-03-24 23:13:41.345  INFO 15056 --- [           main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingPOST_3
+2018-03-24 23:13:41.348  INFO 15056 --- [           main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingPOST_4
+2018-03-24 23:13:41.350  INFO 15056 --- [           main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingPOST_5
+2018-03-24 23:13:41.358  INFO 15056 --- [           main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_18
+2018-03-24 23:13:41.362  INFO 15056 --- [           main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_19
+2018-03-24 23:13:41.368  INFO 15056 --- [           main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_20
+2018-03-24 23:13:41.372  INFO 15056 --- [           main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_21
+2018-03-24 23:13:41.379  INFO 15056 --- [           main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_22
+2018-03-24 23:13:41.381  INFO 15056 --- [           main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_23
+2018-03-24 23:13:41.391  INFO 15056 --- [           main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_24
+2018-03-24 23:13:41.393  INFO 15056 --- [           main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_25
+2018-03-24 23:13:41.397  INFO 15056 --- [           main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: valueUsingGET_1
+2018-03-24 23:13:41.400  INFO 15056 --- [           main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingPOST_6
+2018-03-24 23:13:41.402  INFO 15056 --- [           main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingPOST_7
+2018-03-24 23:13:41.499  INFO 15056 --- [           main] c.i.web.controller.UserControllerTest    : Started UserControllerTest in 8.946 seconds (JVM running for 9.824)
+2018-03-24 23:13:41.569  INFO 15056 --- [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring FrameworkServlet &apos;&apos;
+2018-03-24 23:13:41.569  INFO 15056 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet &apos;&apos;: initialization started
+2018-03-24 23:13:41.593  INFO 15056 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet &apos;&apos;: initialization completed in 24 ms
+file
+test.txt
+12
+</system-out>
+  </testcase>
+  <testcase classname="com.imooc.web.controller.UserControllerTest" name="whenCreateFail" time="0.135"/>
+  <testcase classname="com.imooc.web.controller.UserControllerTest" name="whenGetInfoFail" time="0.023"/>
+  <testcase classname="com.imooc.web.controller.UserControllerTest" name="whenQuerySuccess" time="0.098"/>
+  <testcase classname="com.imooc.web.controller.UserControllerTest" name="whenCreateSuccess" time="0.015">
+    <failure message="Status expected:&lt;200&gt; but was:&lt;400&gt;" type="java.lang.AssertionError">java.lang.AssertionError: Status expected:&lt;200&gt; but was:&lt;400&gt;
+	at org.springframework.test.util.AssertionErrors.fail(AssertionErrors.java:54)
+	at org.springframework.test.util.AssertionErrors.assertEquals(AssertionErrors.java:81)
+	at org.springframework.test.web.servlet.result.StatusResultMatchers$10.match(StatusResultMatchers.java:665)
+	at org.springframework.test.web.servlet.MockMvc$1.andExpect(MockMvc.java:171)
+	at com.imooc.web.controller.UserControllerTest.whenCreateSuccess(UserControllerTest.java:98)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:75)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:86)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:84)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:252)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:94)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+</failure>
+    <system-out>2018-03-24 23:13:41.911  INFO 15056 --- [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring FrameworkServlet &apos;&apos;
+2018-03-24 23:13:41.911  INFO 15056 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet &apos;&apos;: initialization started
+2018-03-24 23:13:41.917  INFO 15056 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet &apos;&apos;: initialization completed in 5 ms
+1521904421917
+greeting
+tom
+</system-out>
+  </testcase>
+  <testcase classname="com.imooc.web.controller.UserControllerTest" name="whenUpdateSuccess" time="0.034"/>
+  <testcase classname="com.imooc.web.controller.UserControllerTest" name="whenDeleteSuccess" time="0.014"/>
+  <testcase classname="com.imooc.web.controller.UserControllerTest" name="whenGetInfoSuccess" time="0.018"/>
+</testsuite>
